@@ -1,4 +1,4 @@
-ts	1382072276000
+ts	1382074160000
 Default-Landscape.jpg	36232
 Default-Portrait.jpg	47949
 Default.jpg	19679
@@ -205,10 +205,10 @@ ui
 			sopas.jpg	10445
 	handheld
 		android
-			ApplicationWindow.js	871
+			ApplicationWindow.js	1420
 		ios
 			ApplicationWindow.js	1031
 		mobileweb
-			ApplicationWindow.js	1620
+			ApplicationWindow.js	1621
 	tablet
 		ApplicationWindow.js	979
