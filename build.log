@@ -1,0 +1,26 @@
+Logfile initialized
+[INFO] logfile = /home/jhonatan/Titanium_Studio_Workspace/enjoyapp/build.log
+[DEBUG] /home/jhonatan/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py emulator enjoyapp /home/jhonatan/bin/adt-bundle-linux-x86-20130729/sdk /home/jhonatan/Titanium_Studio_Workspace/enjoyapp com.jhonatanmt83.enjoyapp 3 WSVGA armeabi-v7a
+[INFO] logfile = /home/jhonatan/Titanium_Studio_Workspace/enjoyapp/build.log
+[DEBUG] /home/jhonatan/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py simulator enjoyapp /home/jhonatan/bin/adt-bundle-linux-x86-20130729/sdk /home/jhonatan/Titanium_Studio_Workspace/enjoyapp com.jhonatanmt83.enjoyapp 3 WSVGA
+[INFO] Building enjoyapp for Android ... one moment
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /home/jhonatan/bin/adt-bundle-linux-x86-20130729/sdk/tools/emulator
+[DEBUG] SDCard: /home/jhonatan/.titanium/android2.sdcard
+[DEBUG] AVD ID: 3
+[DEBUG] AVD Skin: WSVGA
+[DEBUG] AVD ABI: armeabi-v7a
+[DEBUG] SDK: /home/jhonatan/bin/adt-bundle-linux-x86-20130729/sdk
+[INFO] Titanium SDK version: 3.1.3 (09/18/13 12:00 222f4d1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[INFO] Creating new Android Virtual Device (3 WSVGA)
+[ERROR] Exception occured while building Android project:
+[ERROR] Traceback (most recent call last):
+[ERROR]   File "/home/jhonatan/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py", line 2588, in <module>
+[ERROR]     builder.run_emulator(avd_id, avd_skin, avd_name, avd_abi, add_args)
+[ERROR]   File "/home/jhonatan/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py", line 653, in run_emulator
+[ERROR]     avd_name = self.create_avd(avd_id, avd_skin, avd_abi)
+[ERROR]   File "/home/jhonatan/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py", line 615, in create_avd
+[ERROR]     inifilec = open(inifile,'r').read()
+[ERROR] IOError: [Errno 2] No such file or directory: '/home/jhonatan/.android/avd/titanium_3_WSVGA.avd/config.ini'
